@@ -10,7 +10,7 @@ const Connected = () => {
     <img src={isMobile ? bgm.src : bg.src} className="absolute z-10 w-screen" />
     <section className="absolute z-20 w-screen lg:h-[80rem] h-[70rem] flex flex-col justify-around items-center">
       <header className="h-[5%]">
-        <h2 className="text-center text-slate-800 text-4xl font-bold mb-6">Let's stay connected</h2>
+        <h2 className="text-center text-slate-800 text-4xl font-bold mb-6">Let&apos;s stay connected</h2>
         <p className="text-center text-slate-500 text-xl font-medium">Please reach out to us with any questions, suggestions or issues</p>
       </header>
       <section className="lg:h-[10%] h-[30%] w-screen flex flex-wrap items-center justify-center">
