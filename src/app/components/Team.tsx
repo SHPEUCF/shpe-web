@@ -9,7 +9,6 @@ import w2m from "../assets/wave3-mobile.svg"
 import TeamCard from "./TeamCard"
 import TeamModal from './TeamModal'
 import Modal from "@mui/material/Modal";
-import { DialogContent } from "@mui/material";
 
 interface Member {
   id: number,
@@ -37,7 +36,7 @@ const members = [
     age: 24,
     futureJob: "Tech",
     hobbies: ["Futbol"],
-    bio: "I'm a Computer Engineer major currently serving as the President of SHPE UCF. Previously, I served as the Conference Director under Pro-Dev and the Social Chair. Over the summer I was a Technical Program Manager Intern at Amazon Lab126 in Sunnyvale, CA working on a debug hardware for Echo devices. Outside of work/school, I'm a foodie who loves exploring new dishes. Additionally, I'm a dog lover and my husky is my companion and four-legged pillow. In my free time, I enjoy playing and watching soccer, and I'm always up for a game of futbol!"
+    bio: `I'm a Computer Engineer major currently serving as the President of SHPE UCF. Previously, I served as the Conference Director under Pro-Dev and the Social Chair. Over the summer I was a Technical Program Manager Intern at Amazon Lab126 in Sunnyvale, CA working on a debug hardware for Echo devices. Outside of work/school, I'm a foodie who loves exploring new dishes. Additionally, I'm a dog lover and my husky is my companion and four-legged pillow. In my free time, I enjoy playing and watching soccer, and I'm always up for a game of futbol!`
   },
   {
     id: 2,
@@ -63,7 +62,7 @@ const members = [
     age: 21,
     futureJob: "Program/Product Management ",
     hobbies: ["Going to Festivals", "Gym", "traveling"],
-    bio: "Hey there, I'm Daniella! A Senior pursuing a major in Industrial Engineering. Formerly a Facilities Engineering CWEP at Lockheed Martin, I spent last summer in Atlanta, Georgia, interning at Microsoft as a technical program manager."
+    bio: `Hey there, I'm Daniella! A Senior pursuing a major in Industrial Engineering. Formerly a Facilities Engineering CWEP at Lockheed Martin, I spent last summer in Atlanta, Georgia, interning at Microsoft as a technical program manager.`
   },
   {
     id: 4,
@@ -89,7 +88,7 @@ const members = [
     age: 18,
     futureJob: "Undecided !",
     hobbies: ["Travel", "Thrifting", "Art", "Trying new foods"],
-    bio: "I'm an Industrial Engineering major, born in Bogota, Colombia, currently interning part time for Caterpillar Inc. in the global logistics field"
+    bio: `I'm an Industrial Engineering major, born in Bogota, Colombia, currently interning part time for Caterpillar Inc. in the global logistics field`
   },
   {
     id: 6,
@@ -102,7 +101,7 @@ const members = [
     age: 19,
     futureJob: "Manufacturing Engineering",
     hobbies: ["Training for triathlons", "Reading", "Playing guitar"],
-    bio: "Hello everyone! I'm Dennis and I'm the Projects Chair for this academic year. I loved being involved in SHPE last year so I wanted to give back by getting involved as a board member. I can't wait to help get others involved through Projects this upcoming semester; I hope to see you at one of my meetings!"
+    bio: `Hello everyone! I'm Dennis and I'm the Projects Chair for this academic year. I loved being involved in SHPE last year so I wanted to give back by getting involved as a board member. I can't wait to help get others involved through Projects this upcoming semester; I hope to see you at one of my meetings!`
   },
   {
     id: 7,
@@ -141,7 +140,7 @@ const members = [
     age: 19,
     futureJob: "Construction",
     hobbies: ["Traveling", "Reading"],
-    bio: "Hi everyone! My name is Josefina but I go by Jose. I'm so excited for this year and can't wait to get started! "
+    bio: `Hi everyone! My name is Josefina but I go by Jose. I'm so excited for this year and can't wait to get started!`
   },
   {
     id: 10,
@@ -154,7 +153,7 @@ const members = [
     age: 22,
     futureJob: "Software Engineer",
     hobbies: ["Yoga", "Anime", "Traveling", "Hiking"],
-    bio: "Hello! My name is Rebecca but I go by Becca. I'm 🇨🇴&🇻🇪 and a rising Senior this year and I am excited for an awesome school year. Peace and blessings🧘🏽!"
+    bio: `Hello! My name is Rebecca but I go by Becca. I'm 🇨🇴&🇻🇪 and a rising Senior this year and I am excited for an awesome school year. Peace and blessings🧘🏽!`
   },
   {
     id: 11,
@@ -221,7 +220,7 @@ const Team = () => {
       </div>
       <div className="w-[90%] flex flex-wrap justify-around gap-[4rem]">
         {members.map((mem) => (
-          <TeamCard handleOpen={handleOpen} id={mem.id} name={mem.name} pic={mem.pic} pos={mem.pos} />
+          <TeamCard key={mem.id} handleOpen={handleOpen} id={mem.id} name={mem.name} pic={mem.pic} pos={mem.pos} />
         ))}
       </div>
 
