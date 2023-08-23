@@ -12,7 +12,7 @@ import Topic from './Topic'
 const LearnMore = () => {
   const isMobile = useMediaQuery({ query: `(max-width: 760px)` })
 
-  return (<main className="bg-white lg:h-[60rem] h-[128rem]">
+  return (<main id="about" className="bg-white lg:h-[60rem] h-[128rem]">
     <img src={isMobile ? bgm.src : bg.src} className="absolute z-10 w-screen" />
     <article className="absolute z-20 w-screen h-[35rem] flex flex-col justify-between pt-[5rem]">
       <h4 className="text-center text-slate-800 lg:text-4xl text-3xl font-bold pb-[2rem]">Learn more about SHPE</h4>

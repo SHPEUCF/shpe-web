@@ -201,7 +201,7 @@ const Team = () => {
 
   const isMobile = useMediaQuery({ query: `(max-width: 760px)` })
 
-  return (<main className="h-full">
+  return (<main id="team" className="h-full">
     {isClicked && (<Modal
       open={isOpen}
       onClose={handleClose}
