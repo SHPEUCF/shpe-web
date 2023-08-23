@@ -1,10 +1,11 @@
-import { useMediaQuery } from 'react-responsive'
 import logo from "../assets/logo.svg"
 import menu from "../assets/menu.svg"
 
-const NavBar = () => {
-    const isMobile = useMediaQuery({ query: `(max-width: 760px)` })
+interface Prop {
+    isMobile: any
+}
 
+const NavBar = ({isMobile}: Prop) => {
     return (<nav className="text-gray-500 flex items-center justify-between p-2 px-6">
         <img src={logo.src} />
         {isMobile ? <img src={menu.src} /> : <></> }

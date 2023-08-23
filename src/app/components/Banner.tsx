@@ -1,10 +1,12 @@
-import { useMediaQuery } from 'react-responsive'
 import bg from '../assets/background.svg'
 import bgm from '../assets/background-mobile.svg'
 
+interface Prop {
+  isMobile: any
+}
 
-const Banner = () => {
-  const isMobile = useMediaQuery({ query: `(max-width: 760px)` })
+
+const Banner = ({isMobile} : Prop) => {
 
   return (<main className="bg-[#F7F8F9] w-screen lg:h-[35rem] h-[30rem] flex justify-center items-center">
     <img src={isMobile ? bgm.src : bg.src} className="lg:w-2/3 w-[90%] absolute z-10 bg-gray-50" />

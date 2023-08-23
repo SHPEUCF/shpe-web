@@ -1,10 +1,10 @@
-import { useMediaQuery } from 'react-responsive'
 import bg from "../assets/join.svg"
 import bgm from "../assets/join-mobile.svg"
+interface Prop {
+  isMobile: any
+}
 
-const Join = () => {
-  const isMobile = useMediaQuery({ query: `(max-width: 760px)` })
-
+const Join = ({isMobile} : Prop) => {
   return (<div className="bg-[#F7F8F9] w-screen lg:h-[22rem] h-[26rem] flex items-center justify-center">
     <img src={isMobile ? bgm.src : bg.src} className={`${isMobile ? "bg-white pt-10" : ""} absolute z-10 w-screen`} />
     <section className="rounded-md lg:w-[71rem] w-[90%] lg:h-[22rem] h-[18rem] absolute z-20 bg-[#2A3342] text-white flex justify-around items-center">

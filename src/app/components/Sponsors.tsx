@@ -1,4 +1,3 @@
-import { useMediaQuery } from 'react-responsive'
 import bg from '../assets/wavepattern.svg'
 import bgm from '../assets/wavepattern-mobile.svg'
 import m from '../assets/microsoft.svg'
@@ -6,12 +5,11 @@ import a from '../assets/accen.svg'
 import t from '../assets/tesla.svg'
 import d from '../assets/disney.svg'
 import n from '../assets/nasa.svg'
+interface Prop {
+    isMobile: any
+}
 
-
-
-const Sponsors = () => {
-    const isMobile = useMediaQuery({ query: `(max-width: 760px)` })
-
+const Sponsors = ({isMobile} : Prop) => {
     return (<main className="lg:h-[27rem] h-[45rem] bg-white">
         <img src={isMobile ? bgm.src : bg.src} className="absolute z-10 w-screen" />
         <section className="absolute z-20 lg:pt-[3.5em] flex flex-col items-center h-[45rem]">

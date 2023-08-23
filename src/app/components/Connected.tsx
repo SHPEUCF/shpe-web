@@ -1,10 +1,12 @@
-import { useMediaQuery } from 'react-responsive'
+
 import bg from "../assets/contact.svg"
 import bgm from "../assets/contact-mobile.svg"
 import Social from "./Social"
+interface Prop {
+  isMobile: any
+}
 
-const Connected = () => {
-  const isMobile = useMediaQuery({ query: `(max-width: 760px)` })
+const Connected = ({isMobile} : Prop) => {
 
   return (<main id="contact" className="bg-white lg:h-[91rem] h-[78rem] pt-10">
     <img src={isMobile ? bgm.src : bg.src} className="absolute z-10 w-screen" />

@@ -2,12 +2,11 @@ import bg from "../assets/events.svg"
 import bgm from "../assets/events-mobile.svg"
 import event from "../assets/event.svg"
 import Event from "./Event"
-import { useMediaQuery } from 'react-responsive'
+interface Prop {
+  isMobile: any
+}
 
-
-const Events = () => {
-  const isMobile = useMediaQuery({ query: `(max-width: 760px)` })
-
+const Events = ({isMobile} : Prop) => {
   return (<main className="bg-[#F7F8F9] lg:h-[70rem] h-[80rem] w-screen flex justify-around items-center">
     <img src={isMobile ? bgm.src : bg.src} className="absolute z-10 w-screen" />
     <section className="absolute z-20 w-screen lg:h-[70rem] h-[80rem] flex flex-col justify-around items-center lg:mt-[9rem]">

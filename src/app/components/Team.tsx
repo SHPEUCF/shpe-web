@@ -1,14 +1,15 @@
 'use client'
 import { useState } from 'react'
-
-import { useMediaQuery } from 'react-responsive'
 import w1 from "../assets/wave2.svg"
 import w2 from "../assets/wave3.svg"
 import w1m from "../assets/wave2-mobile.svg"
 import w2m from "../assets/wave3-mobile.svg"
 import TeamCard from "./TeamCard"
 import TeamModal from './TeamModal'
-import Modal from "@mui/material/Modal";
+import Modal from "@mui/material/Modal"
+interface Prop {
+  isMobile: any
+}
 
 interface Member {
   id: number,
@@ -183,7 +184,7 @@ const members = [
   }
 ]
 
-const Team = () => {
+const Team = ({isMobile} : Prop) => {
   const [isOpen, setIsOpen] = useState(false);
   const [isClicked, setIsClicked] = useState<any>(undefined);
 
@@ -198,8 +199,6 @@ const Team = () => {
     setIsOpen(false);
     setIsClicked(undefined);
   }
-
-  const isMobile = useMediaQuery({ query: `(max-width: 760px)` })
 
   return (<main id="team" className="h-full">
     {isClicked && (<Modal

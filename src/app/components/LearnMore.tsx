@@ -1,4 +1,3 @@
-import { useMediaQuery } from 'react-responsive'
 import bg from '../assets/pattern.svg'
 import bgm from '../assets/pattern-mobile.svg'
 import dor from '../assets/dark-orange.svg'
@@ -8,9 +7,11 @@ import lb from '../assets/light-blue.svg'
 import b from '../assets/blue.svg'
 import db from '../assets/dark-blue.svg'
 import Topic from './Topic'
+interface Prop {
+  isMobile: any
+}
 
-const LearnMore = () => {
-  const isMobile = useMediaQuery({ query: `(max-width: 760px)` })
+const LearnMore = ({isMobile} : Prop) => {
 
   return (<main id="about" className="bg-white lg:h-[60rem] h-[128rem]">
     <img src={isMobile ? bgm.src : bg.src} className="absolute z-10 w-screen" />
