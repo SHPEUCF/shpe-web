@@ -10,7 +10,7 @@ const Join = () => {
     <section className="rounded-md lg:w-[71rem] w-[90%] lg:h-[22rem] h-[18rem] absolute z-20 bg-[#2A3342] text-white flex justify-around items-center">
       <article className="lg:w-[26rem] w-[12rem]">
         <h3 className="lg:text-4xl text-2xl font-bold pb-4">Join our Familia!</h3>
-        <p className="text-slate-400 lg:text-xl text-sm font-medium" >You don't need to be hispanic to be part of this change</p>
+        <p className="text-slate-400 lg:text-xl text-sm font-medium" >You don&apos;t need to be hispanic to be part of this change</p>
       </article>
       <article className="w-[30%] flex justify-between">
         <a className="lg:w-40 lg:h-14 w-24 h-10 lg:px-7 py-4 bg-yellow-400 rounded-md shadow justify-center items-center lg:gap-2 inline-flex text-black lg:text-lg text-sm font-medium">Get Started</a>
