@@ -6,7 +6,7 @@ interface Prop {
 }
 
 const NavBar = ({isMobile}: Prop) => {
-    return (<nav className="text-gray-500 flex items-center justify-between p-2 px-6">
+    return (<nav className="h-[5rem] text-gray-500 flex items-center justify-between p-2 px-6">
         <img src={logo.src} />
         {isMobile ? <img src={menu.src} /> : <></> }
         <section className={`${isMobile ? "hidden" : ""} w-[90%] flex items-center justify-between`}>

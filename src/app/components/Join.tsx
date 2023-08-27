@@ -13,9 +13,9 @@ const Join = ({isMobile} : Prop) => {
         <p className="text-slate-400 lg:text-xl text-sm font-medium" >You don&apos;t need to be hispanic to be part of this change</p>
       </article>
       <article className="w-[30%] flex justify-between">
-        <a className="lg:w-40 lg:h-14 w-24 h-10 lg:px-7 py-4 bg-yellow-400 rounded-md shadow justify-center items-center lg:gap-2 inline-flex text-black lg:text-lg text-sm font-medium">Get Started</a>
+        <a href="https://form.jotform.com/70387424224151" target="_blank" className="lg:w-40 lg:h-14 w-24 h-10 lg:px-7 py-4 bg-yellow-400 rounded-md shadow justify-center items-center lg:gap-2 inline-flex text-black lg:text-lg text-sm font-medium">Get Started</a>
         { isMobile ? <></> : 
-        <a className="w-40 h-14 px-7 py-4 bg-white rounded-md shadow border border-gray-300 justify-center items-center gap-2 inline-flex text-slate-700 text-lg font-medium">Learn More</a>}
+        <a href="#events" className="w-40 h-14 px-7 py-4 bg-white rounded-md shadow border border-gray-300 justify-center items-center gap-2 inline-flex text-slate-700 text-lg font-medium">Learn More</a>}
       </article>
     </section>
   </div>

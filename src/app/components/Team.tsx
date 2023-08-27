@@ -215,7 +215,7 @@ const Team = ({isMobile} : Prop) => {
     <section className="lg:h-[80rem] h-[280rem] w-screen bg-[#2A3342] flex flex-col justify-around items-center pb-[4rem]">
       <div className="w-[80%] lg:h-[6rem] h-[2rem] justify-around flex flex-col text-start">
         <h2 className="text-white lg:text-4xl text-[1.6rem] font-bold lg-pb-0 pb-4">Get to know our Team</h2>
-        <p className="text-slate-400 text-xl font-medium">Know the face of SHPE UCF</p>
+        <p className="text-slate-400 text-xl font-medium">Know the faces of SHPE UCF</p>
       </div>
       <div className="w-[90%] flex flex-wrap justify-around gap-[4rem]">
         {members.map((mem) => (
