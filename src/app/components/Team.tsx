@@ -209,10 +209,8 @@ const Team = ({isMobile} : Prop) => {
       <TeamModal member={isClicked} close={handleClose} id={isClicked.id} />
     </Modal>
     )}
-
-
     <img className="w-screen" src={isMobile ? w1m.src : w1.src} />
-    <section className="2xl:h-[100rem] lg:h-[80rem] h-[280rem] w-screen bg-[#2A3342] flex flex-col justify-around items-center pb-[4rem]">
+    <section className="h-full w-screen bg-[#2A3342] flex flex-col justify-around items-center pb-[4rem]">
       <article className="w-[80%] lg:h-[6rem] h-[2rem] justify-around flex flex-col text-start">
         <h2 className="2xl:text-7xl text-white lg:text-4xl text-[1.6rem] font-bold lg-pb-0 pb-4">Get to know our Team</h2>
         <p className="2xl:text-3xl text-slate-400 text-xl font-medium">Know the faces of SHPE UCF</p>
