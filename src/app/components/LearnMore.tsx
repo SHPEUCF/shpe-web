@@ -18,7 +18,7 @@ const LearnMore = ({isMobile} : Prop) => {
     <article className="2xl:pt-[10rem] absolute z-20 w-screen h-[35rem] flex flex-col justify-between pt-[5rem]">
       <h4 className="2xl:text-7xl text-center text-slate-800 lg:text-4xl text-3xl font-bold pb-[2rem]">Learn more about SHPE</h4>
       <p className="2xl:text-4xl text-center text-slate-500 lg:text-xl text-baseline font-medium pb-[6rem]">We bring you the best professional development, engineering, and social experiences with a hispanic twist. </p>
-      <section className="2xl:w-[70%] w-[80%] m-auto flex flex-wrap justify-between items-center">
+      <section className="2xl:w-[70%] xl:w-[90%] w-[80%] m-auto flex flex-wrap justify-between items-center">
         <Topic color={dor.src} title="Mission" description="SHPE changes lives by empowering the Hispanic community to realize its fullest potential and to impact the world through STEM awareness, support, and development." />
         <Topic color={or.src} title="Vision" description="SHPE envisions a world where Hispanics are esteemed and hold influence as premier innovators, scientists, mathematicians, and engineers, driving progress and diversity." />
         <Topic color={y.src} title="Familia" description="We take responsibility for our collective strength and passion by developing communities, building a diverse and inclusive membership, and challenging each other to be our best." />
