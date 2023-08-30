@@ -2,13 +2,15 @@
 import bg from "../assets/contact.svg"
 import bgm from "../assets/contact-mobile.svg"
 import Social from "./Social"
+import styles from './Connected.module.css'
+
 interface Prop {
   isMobile: any
 }
 
 const Connected = ({isMobile} : Prop) => {
 
-  return (<main id="contact" className="bg-white 2xl:h-[152rem] lg:h-[91rem] h-[78rem] pt-10">
+  return (<main id="contact" className={styles.split}>
     <img src={isMobile ? bgm.src : bg.src} className="absolute z-10 w-screen" />
     <section className="absolute z-20 w-screen 2xl:h-[140rem] lg:h-[80rem] h-[70rem] flex flex-col justify-around items-center">
       <header className="h-[5%]">

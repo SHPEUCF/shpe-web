@@ -1,0 +1,10 @@
+.split {
+    background: linear-gradient(
+    to top,
+    #2A3342 0%,
+    #2A3342 50%,
+    white 50%,
+    white 100%
+  );
+  @apply 2xl:h-[150rem] lg:h-[91rem] h-[78rem] pt-10;
+}
