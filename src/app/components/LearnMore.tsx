@@ -13,7 +13,7 @@ interface Prop {
 
 const LearnMore = ({isMobile} : Prop) => {
 
-  return (<main id="about" className="bg-white 2xl:h-[140rem] xl:h-[70rem] lg:h-[60rem] h-[128rem]">
+  return (<main id="about" className="bg-white 2xl:h-[120rem] xl:h-[70rem] lg:h-[60rem] h-[128rem]">
     <img src={isMobile ? bgm.src : bg.src} className="absolute z-10 w-screen" />
     <article className="2xl:pt-[10rem] absolute z-20 w-screen h-full flex flex-col justify-between pt-[5rem]">
       <h4 className="2xl:text-7xl text-center text-slate-800 lg:text-4xl text-3xl font-bold pb-[2rem]">Learn more about SHPE</h4>
