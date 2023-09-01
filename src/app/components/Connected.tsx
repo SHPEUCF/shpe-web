@@ -18,7 +18,7 @@ const Connected = ({isMobile} : Prop) => {
         <p className="2xl:text-4xl text-center text-slate-500 text-xl font-medium">Please reach out to us with any questions, suggestions or issues</p>
       </header>
       <section className="lg:h-[10%] h-[30%] w-screen flex flex-wrap items-center justify-center">
-        <Social link="mailto:secretary@shpeucf.com" icon="/assets/email.svg" title="Email" />
+        <Social link="mailto:contact@shpeucf.com" icon="/assets/email.svg" title="Email" />
         <Social link="https://discord.com/invite/gRamS65mqT" icon="/assets/discord.svg" title="Discord" />
         <Social link="https://www.instagram.com/shpeucf/" icon="/assets/instagram.svg" title="Instagram" />
         <Social link="https://chat.whatsapp.com/LotVd4J7FNzJQzAX2rxDjc" icon="/assets/whatsapp.svg" title="Whatsapp" />
