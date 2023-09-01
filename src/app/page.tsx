@@ -13,7 +13,7 @@ import Footer from "./components/Footer"
 const Home = () => {
   let isMobile = useMediaQuery({ query: `(max-width: 760px)` })
   
-  return (<div className="bg-[#F7F8F9] text-black">
+  return (<div className="bg-[#F7F8F9] text-black overflow-x-hidden overflow-y-auto">
     <NavBar isMobile={isMobile} />
     <Banner isMobile={isMobile} />
     <Sponsors isMobile={isMobile} />

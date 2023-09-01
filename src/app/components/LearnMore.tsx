@@ -13,11 +13,11 @@ interface Prop {
 
 const LearnMore = ({isMobile} : Prop) => {
 
-  return (<main id="about" className="bg-white 2xl:h-[120rem] xl:h-[70rem] lg:h-[60rem] h-[128rem]">
-    <img src={isMobile ? bgm.src : bg.src} className="absolute z-10 w-screen" />
-    <article className="2xl:pt-[10rem] absolute z-20 w-screen h-full flex flex-col justify-between pt-[5rem]">
+  return (<main id="about" className="bg-white 2xl:h-[110rem] xl:h-[70rem] lg:h-[60rem] h-[128rem]">
+    <img src={isMobile ? bgm.src : bg.src} className="absolute z-10 max-w-[100%] w-screen" />
+    <article className="absolute z-20 w-screen h-full flex flex-col justify-between pt-[5rem]">
       <h4 className="2xl:text-7xl text-center text-slate-800 lg:text-4xl text-3xl font-bold pb-[2rem]">Learn more about SHPE</h4>
-      <p className="2xl:text-4xl text-center text-slate-500 lg:text-xl text-baseline font-medium pb-[6rem]">We bring you the best professional development, engineering, and social experiences with a hispanic twist. </p>
+      <p className="2xl:pb-[10rem] 2xl:text-3xl text-center text-slate-500 lg:text-xl text-baseline font-medium pb-[6rem]">We bring you the best professional development, engineering, and social experiences with a hispanic twist.</p>
       <section className="w-[80%] m-auto flex flex-wrap justify-between items-center">
         <Topic color={dor.src} title="Mission" description="SHPE changes lives by empowering the Hispanic community to realize its fullest potential and to impact the world through STEM awareness, support, and development." />
         <Topic color={or.src} title="Vision" description="SHPE envisions a world where Hispanics are esteemed and hold influence as premier innovators, scientists, mathematicians, and engineers, driving progress and diversity." />

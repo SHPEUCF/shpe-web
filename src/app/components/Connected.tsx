@@ -11,8 +11,8 @@ interface Prop {
 const Connected = ({isMobile} : Prop) => {
 
   return (<main id="contact" className={styles.split}>
-    <img src={isMobile ? bgm.src : bg.src} className="absolute z-10 w-screen" />
-    <section className="absolute z-20 w-screen 2xl:h-[140rem] lg:h-[80rem] h-[70rem] flex flex-col justify-around items-center">
+    <img src={isMobile ? bgm.src : bg.src} className="absolute z-10 max-w-[100%] w-screen" />
+    <section className="absolute z-20 max-w-[100%] w-screen 2xl:h-[110rem] lg:h-[80rem] h-[70rem] flex flex-col justify-around items-center">
       <header className="h-[5%]">
         <h2 className="2xl:text-7xl text-center text-slate-800 text-4xl font-bold mb-6 2xl:mb-10">Let&apos;s stay connected</h2>
         <p className="2xl:text-4xl text-center text-slate-500 text-xl font-medium">Please reach out to us with any questions, suggestions or issues</p>
