@@ -16,7 +16,7 @@ const Events = ({isMobile} : Prop) => {
       </header>
       <section className={`${isMobile ? "flex-col" : ""} w-[90%] h-[80%] flex justify-around`}>
         <article>
-          <Event link="https://shpeucfbbq.webflow.io/" title="Industry BBQ" description="A great opportunity to get to network with recruiters in a chill environment!" />
+          <Event link="https://shpeucfbbq.webflow.io/" title="Industry BBQ" description="A dynamic networking event that unites our talented students with prominent professionals and recruiters from various industries." />
           <Event link="https://shpe.org/engage/events/national-convention/" title="SHPE Conference" description="Join SHPE in our signature event and the largest gathering of Hispanics in STEM in the country in Salt Lake City, Utah." />
           <Event link="https://shpe.org/shpexchange/" title="SHPExchange" description="This online series will give companies and attendees an opportunity to exchange ideas and make connections in a setting focused on their industry alone." />
         </article>
