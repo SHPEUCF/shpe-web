@@ -8,7 +8,7 @@ interface Prop {
 
 const Banner = ({isMobile} : Prop) => {
 
-  return (<main className="w-screen bg-[#F7F8F9] 2xl:h-[50rem] lg:h-[35rem] h-[30rem] flex justify-center items-center">
+  return (<main className="w-screen bg-[#F7F8F9] 2xl:h-[48rem] lg:h-[35rem] h-[30rem] flex justify-center items-center">
     <img src={isMobile ? bgm.src : bg.src} className="lg:w-2/3 w-[90%] absolute z-10 bg-gray-50" />
     <section className="2xl:h-[45%] lg:h-[35%] h-[30%] lg:p-4 p-8 absolute z-20 flex flex-col justify-between items-center text-center">
       <h1 className="text-white 2xl:text-7xl lg:text-5xl text-[1.7rem] font-bold">Society of Hispanic<br></br>Professional Engineers</h1>
