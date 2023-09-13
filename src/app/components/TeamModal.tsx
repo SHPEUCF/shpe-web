@@ -24,7 +24,7 @@ const TeamModal = ({ close, id, member }: TMProps) => {
   return (
     <div className="text-black w-[40rem] lg:h-[30rem] h-[32rem] p-2 pt-4 bg-white rounded-lg shadow border border-stone-300 justify-between items-center inline-flex px-4">
       <div className="self-start mt-[1rem] w-[25%] h-[70%] flex flex-col justify-around items-center">
-        <img className="rounded-full lg:w-36 lg:h-36 w-24 h-24" src={member.pic} />
+        <img className="rounded-md lg:w-36 lg:h-36 w-24 h-24" src={member.pic} />
         <div className="flex w-[80%] justify-between">
           <a target="_blank" className="lg:w-[30%] w-[40%]" href={member.linkedin} ><img src="/assets/linkedin.svg" /></a>
           <a target="_blank" className="lg:w-[30%] w-[40%]" href={`mailto:${member.email}`}><img src="/assets/email.svg" /></a>
@@ -42,7 +42,7 @@ const TeamModal = ({ close, id, member }: TMProps) => {
             <p className="w-[100%] text-neutral-700 lg:text-base text-sm font-medium">{member.major}</p>
           </div>
           <div>
-            <h3 className="w-[100%] text-black lg:text-base text-sm font-bold">Future Job Focus:</h3>
+            <h3 className="w-[100%] text-black lg:text-base text-sm font-bold">Future Industry Focus:</h3>
             <p className="w-[100%] text-neutral-700 lg:text-base text-sm font-medium">{member.futureJob}</p>
           </div>
           <div>

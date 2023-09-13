@@ -30,12 +30,12 @@ const NavBar = ({ isMobile }: Prop) => {
         </div> : <></>}
 
         <section className={`${isMobile ? "hidden" : ""} 2xl:text-2xl w-[90%] flex items-center justify-between`}>
-            <a href="#about">About</a>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSd-afMh4hdQtk6HfmeaEOxptbqrMK4Nei9ukQXQBaFB0rwKOQ/viewform" target="_blank">News</a>
-            <a href="#team">Our Team</a>
-            <a href="#calendar">Calendar</a>
-            <a href="#contact">Contact Us</a>
-            <a href="https://form.jotform.com/70387424224151" target="_blank" className="text-white 2xl:text-2xl 2xl:h-14 2xl:w-[200px] text-sm w-[127px] h-9 px-4 py-2 bg-orange-500 rounded-md shadow justify-center items-center gap-1.5 inline-flex">Members</a>
+            <a className="px-4 py-2 hover:bg-gray-100" href="#about">About</a>
+            <a className="px-4 py-2 hover:bg-gray-100" href="https://docs.google.com/forms/d/e/1FAIpQLSd-afMh4hdQtk6HfmeaEOxptbqrMK4Nei9ukQXQBaFB0rwKOQ/viewform" target="_blank">News</a>
+            <a className="px-4 py-2 hover:bg-gray-100" href="#team">Our Team</a>
+            <a className="px-4 py-2 hover:bg-gray-100" href="#calendar">Calendar</a>
+            <a className="px-4 py-2 hover:bg-gray-100" href="#contact">Contact Us</a>
+            <a className="px-4 py-2 hover:bg-gray-100" href="https://form.jotform.com/70387424224151" target="_blank" className="text-white 2xl:text-2xl 2xl:h-14 2xl:w-[200px] text-sm w-[127px] h-9 px-4 py-2 bg-orange-500 hover:bg-orange-600 rounded-md shadow justify-center items-center gap-1.5 inline-flex">Members</a>
         </section>
     </nav>
     )

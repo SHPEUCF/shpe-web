@@ -35,22 +35,22 @@ const members = [
     linkedin: "https://www.linkedin.com/in/juan-gio-trawczynski/",
     email: "juan.trawczynski@outlook.com",
     age: 24,
-    futureJob: "Tech",
+    futureJob: "Technology",
     hobbies: ["Futbol"],
     bio: `I'm a Computer Engineer major currently serving as the President of SHPE UCF. Previously, I served as the Conference Director under Pro-Dev and the Social Chair. Over the summer I was a Technical Program Manager Intern at Amazon Lab126 in Sunnyvale, CA working on a debug hardware for Echo devices. Outside of work/school, I'm a foodie who loves exploring new dishes. Additionally, I'm a dog lover and my husky is my companion and four-legged pillow. In my free time, I enjoy playing and watching soccer, and I'm always up for a game of futbol!`
   },
   {
     id: 2,
-    name: "Leandro Taveras",
+    name: "Leo (Leandro) Taveras",
     pos: "External Vice President",
     pic: "/board/leo.JPG",
     major: "Industrial Engineering",
     linkedin: "https://www.linkedin.com/in/leandro-taveras/",
     email: "taverasleandro@gmail.com",
     age: 18,
-    futureJob: "Industrial, Systems or Manufacturing engineering",
+    futureJob: "Tech, Aerospace, Entertainment, Automotive ",
     hobbies: ["Going to new places", "Running", "Hanging out with my friends"],
-    bio: "I am Leo Taveras, I was born in New York City and my parents were both born and raised in the Dominican Republic. I have 1 little brother and I also like to play American football."
+    bio: "Hey! My name is Leo and I am from the Dominican Republic! I am a second-year Industrial Engineering major and I work as an Industrial engineering co-op for Universal Orlando. A fun fact is that I love to travel and make travel plans!"
   },
   {
     id: 3,
@@ -61,9 +61,9 @@ const members = [
     linkedin: "https://www.linkedin.com/in/daniellaescobar1",
     email: "Internalvp@shpeucf.com",
     age: 21,
-    futureJob: "Program/Product Management ",
+    futureJob: "Technology, Fin-Tech, Data Analytics",
     hobbies: ["Going to Festivals", "Gym", "traveling"],
-    bio: `Hey there, I'm Daniella! A Senior pursuing a major in Industrial Engineering. Formerly a Facilities Engineering CWEP at Lockheed Martin, I spent last summer in Atlanta, Georgia, interning at Microsoft as a technical program manager.`
+    bio: `Hey! My name is Daniella and I am from Venezuela! I am fourth-year Industrial Engineering major, I have done previous internships at Lockheed Martin as Facilities Engineering CWEP and at Microsoft as a Technical Program Manager intern. A fun fact is that I love going to festivals!`
   },
   {
     id: 4,
@@ -74,9 +74,9 @@ const members = [
     linkedin: "https://www.linkedin.com/in/catalinaocampo03/",
     email: "treasurer@shpeucf.com",
     age: 19,
-    futureJob: "Software Engineer",
+    futureJob: "Technology",
     hobbies: ["Sports", "Coding", "Painting", "Hanging out with friends"],
-    bio: "South Florida | Colombian Heritage | UCF Computer Science Major | SHPE Treasurer | Blending cultures and code for success! 🌟"
+    bio: "Hello! My name is Catalina and I am originally from Colombia. I am a second year computer science major and work as a software engineer intern at Titan America. A fun fact is that I am going to be studying abroad in Europe."
   },
   {
     id: 5,
@@ -100,9 +100,9 @@ const members = [
     linkedin: "https://www.linkedin.com/in/dennis-garcia-/",
     email: "dennisgarcia1354@gmail.com",
     age: 19,
-    futureJob: "Manufacturing Engineering",
+    futureJob: "Defense, Space, Automotive",
     hobbies: ["Training for triathlons", "Reading", "Playing guitar"],
-    bio: `Hello everyone! I'm Dennis and I'm the Projects Chair for this academic year. I loved being involved in SHPE last year so I wanted to give back by getting involved as a board member. I can't wait to help get others involved through Projects this upcoming semester; I hope to see you at one of my meetings!`
+    bio: `HELLOOOOO! My name is Dennis Garcia and I'm from Cuba! I am a second-year Mechanical Engineering major at UCF. A fun fact is that I train for triathlons on my free time!`
   },
   {
     id: 7,
@@ -113,9 +113,9 @@ const members = [
     linkedin: "",
     email: "montesinoskarla55@gmail.com",
     age: 21,
-    futureJob: "Design Engineering",
+    futureJob: "UX design, Creative Engineering Design, Project Management",
     hobbies: ["Art", "Design", "Hanging out with Friends", "Pretty Notes", "Good music"],
-    bio: "Hola!! Hi, I am so excited to be your marketing director this year!! Reach out to workout, hang out, study or get cute to sit at a cute coffee shop! "
+    bio: "¡¡Hola Hola!!  My name is Karla, and I was born in Mexico City and am so proud of my heritage!! I am a fourth year Mechanical Engineering student. I am also minoring in Computer Science. A fun fact about me that I don’t know how to drive! "
   },
   {
     id: 8,
@@ -126,9 +126,9 @@ const members = [
     linkedin: "https://www.linkedin.com/in/miguel-parra44",
     email: "paramiguel44@gmail.com",
     age: 19,
-    futureJob: "Program Manager for Tech Company",
+    futureJob: "Technology, Program Management",
     hobbies: ["Gym", "Sports", "Video Games", "Hanging out"],
-    bio: "Venezuelan 🇻🇪 South Florida Socials Chair 🗣️ Goal to create stronger community 🫵"
+    bio: "Hey Everyone!! My name is Miguel and I was born here in Florida, but my family is Venezuelan! I am a second-year Computer Science major and currently work for Lockheed Martin as a Software Engineer. A fun fact about me is that I love to play sports whenever or whatever the sport is."
   },
   {
     id: 9,
@@ -139,9 +139,9 @@ const members = [
     linkedin: "https://www.linkedin.com/in/josefinahofmann",
     email: "josefinahofmann9@gmail.com",
     age: 19,
-    futureJob: "Construction",
+    futureJob: "Construction and Design",
     hobbies: ["Traveling", "Reading"],
-    bio: `Hi everyone! My name is Josefina but I go by Jose. I'm so excited for this year and can't wait to get started!`
+    bio: `Hey! My name is Josefina and I'm from Chile! I'm a second-year Civil Engineering major and I am continuing my summer internship with Ajax Building Company over the course of fall semester. I love travel and all things architecture, construction and design!`
   },
   {
     id: 10,
@@ -152,36 +152,62 @@ const members = [
     linkedin: "https://www.linkedin.com/in/rebeccacalderon1/",
     email: "Rebecca_Calderon@hotmail.com",
     age: 22,
-    futureJob: "Software Engineer",
+    futureJob: "Technology",
     hobbies: ["Yoga", "Anime", "Traveling", "Hiking"],
-    bio: `Hello! My name is Rebecca but I go by Becca. I'm 🇨🇴&🇻🇪 and a rising Senior this year and I am excited for an awesome school year. Peace and blessings🧘🏽!`
+    bio: `Hey! My name is Becca and I am a proud Venezuelan 🇻🇪 Colombia 🇨🇴. I am a four-year Computer Science student and I work as a Technical Resident for Abbott, a biomedical company. A fun fact about me is that I am an adrenaline junkie and love to travel so anything adventurous, count me in!`
   },
   {
     id: 11,
-    name: "Andres Acevedo Polo",
+    name: "Mariana Ramirez Velasco",
     pos: "Pro Dev Co-Chair",
-    pic: "/board/andres.JPG",
-    major: "Electrical Engineering",
-    linkedin: "https://www.linkedin.com/in/joseandresacevedopolo",
-    email: "jo543625@ucf.edu",
-    age: 24,
-    futureJob: "Anything but defense",
-    hobbies: ["Jiu-jitsu", "video games", "music"],
-    bio: "Just trying to make a difference"
+    pic: "/board/mariana.JPG",
+    major: "Computer Engineering & Game Design ",
+    linkedin: "https://www.linkedin.com/in/marianaramirez71/",
+    email: "marianar2241@gmail.com",
+    age: 21,
+    futureJob: "Space",
+    hobbies: ["Art", "Working Out", "Video Games"],
+    bio: "Hola! My name is Mariana, and I'm a third year in Computer Engineering & Game Design at UCF. I've had experience at NASA for the Artemis 2 & 3 missions, and continuing to collaborate till today. A fun fact about me is I have a burning passion for my country, Colombia, and for the future of space exploration and technology!"
   },
   {
     id: 12,
+    name: "Kayla Cheung",
+    pos: "Outreach Chair",
+    pic: "/board/kayla.JPG",
+    major: "Materials Science",
+    linkedin: "www.linkedin.com/in/kayla-lcheung",
+    email: "kaylacheung04@gmail.com",
+    age: 18,
+    futureJob: "Sustainable Textiles/Design and Manufacturing",
+    hobbies: ["Drawing", "Cooking", "Movies"],
+    bio: "Hi! My name is Kayla and I am a first-year Materials Science major. I am from Miami and proudly Cuban! A fun fact is that in my free time I can be found watching old fashion shows on Vogue or Youtube. "
+  },
+  {
+    id: 13,
     name: "Nicole Nascimento",
-    pos: "Tech Chair",
+    pos: "Tech Co-Chair",
     pic: "/board/nicole.JPG",
     major: "Computer Science",
     linkedin: "https://www.linkedin.com/in/nicole-zolnier/",
     email: "nizocareer@gmail.com",
     age: 21,
-    futureJob: "Software Engineer",
+    futureJob: "Technology",
     hobbies: ["Listening to music", "cooking", "gym", "watching movies"],
     bio: "Hey! My name is Nicole and I am from the best country in South America: Brazil! I am a third-year Computer Science major, work as an Undergraduate Teaching Assistant for Intro to C and as a Software Engineer at UCF. A fun fact is that I built and designed the website that you are in right now!"
-  }
+  },
+  {
+    id: 13,
+    name: "Zain E Yousaf Fuentes",
+    pos: "Tech Co-Chair",
+    pic: "/board/zain.JPG",
+    major: "Computer Science",
+    linkedin: "https://www.linkedin.com/in/zeyf",
+    email: "zeyfcareer@gmail.com",
+    age: 21,
+    futureJob: "Technology",
+    hobbies: ["Destroying in dominoes", "gym", "hanging out with friends"],
+    bio: "Hey everyone I'm Zain. I'm a senior Computer Science major from Dominican Republic. Fun fact this is my second time being a tech chair for SHPE!"
+  },
 ]
 
 const Team = ({isMobile} : Prop) => {
@@ -209,20 +235,20 @@ const Team = ({isMobile} : Prop) => {
       <TeamModal member={isClicked} close={handleClose} id={isClicked.id} />
     </Modal>
     )}
-    <img className="max-w-[100%] w-screen" src={isMobile ? w1m.src : w1.src} />
+    <img className="w-screen" src={isMobile ? w1m.src : w1.src} />
     <section className="h-full max-w-[100%] w-screen bg-[#2A3342] py-[2rem] flex flex-col justify-around items-center pb-[6rem]">
       <article className="w-[80%] 2xl:h-[16rem] lg:h-[12rem] h-[10rem] justify-around flex flex-col text-start py-6 pb-10">
         <h2 className="2xl:text-7xl text-white lg:text-4xl text-[1.6rem] font-bold lg-pb-0 pb-4">Get to know our Team</h2>
         <p className="2xl:text-3xl text-slate-400 text-xl font-medium">Know the faces of SHPE UCF</p>
       </article>
-      <section className="w-[90%] h-full flex flex-wrap justify-around gap-[4rem]">
+      <section className="w-[90%] h-full flex flex-wrap justify-around gap-[3rem]">
         {members.map((mem) => (
           <TeamCard key={mem.id} handleOpen={handleOpen} id={mem.id} name={mem.name} pic={mem.pic} pos={mem.pos} />
         ))}
       </section>
 
     </section>
-    <img className="w-full bg-white" src={isMobile ? w2m.src : w2.src} />
+    <img className="w-screen bg-white" src={isMobile ? w2m.src : w2.src} />
   </main>
   )
 }
