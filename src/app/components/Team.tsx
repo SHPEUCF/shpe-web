@@ -210,7 +210,7 @@ const members = [
   },
 ]
 
-const Team = ({isMobile} : Prop) => {
+const Team = ({ isMobile }: Prop) => {
   const [isOpen, setIsOpen] = useState(false);
   const [isClicked, setIsClicked] = useState<any>(undefined);
 
@@ -230,7 +230,7 @@ const Team = ({isMobile} : Prop) => {
     {isClicked && (<Modal
       open={isOpen}
       onClose={handleClose}
-      style={{display:'flex',alignItems:'center',justifyContent:'center'}}
+      style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}
     >
       <TeamModal member={isClicked} close={handleClose} id={isClicked.id} />
     </Modal>
