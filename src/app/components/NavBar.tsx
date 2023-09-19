@@ -10,7 +10,7 @@ const NavBar = ({ isMobile }: Prop) => {
     const [openMenu, setOpenMenu] = useState(false)
 
     return (<nav className="2xl:h-[8rem] h-[5rem] text-gray-500 flex items-center justify-between p-2 px-6">
-        <img className="2xl:w-[20%]" src={logo.src} />
+        <img className="2xl:w-[12%]" src={logo.src} />
         {isMobile ? <button onClick={() => setOpenMenu(!openMenu)}><img src={menu.src} /></button> : <></>}
         {openMenu ? <div id="dropdown" className="z-30 w-1/2 top-16 right-0 absolute">
             <ul className="py-2 flex flex-col p-4 border shadow-md border-gray-100 rounded-lg bg-gray-50 text-sm text-gray-700">
