@@ -196,7 +196,7 @@ const members = [
     bio: "Hey! My name is Nicole and I am from the best country in South America: Brazil! I am a third-year Computer Science major, work as an Undergraduate Teaching Assistant for Intro to C and as a Software Engineer at UCF. A fun fact is that I built and designed the website that you are in right now!"
   },
   {
-    id: 13,
+    id: 14,
     name: "Zain E Yousaf Fuentes",
     pos: "Tech Co-Chair",
     pic: "/board/zain.JPG",
