@@ -7,7 +7,7 @@ interface TeamCardProps {
 }
 
 const TeamCard = ({ name, pos, pic, handleOpen, id }: TeamCardProps) => {
-  return (<div className="2xl:w-80 2xl:h-[27rem] w-56 h-[22rem] p-2 pt-4 bg-white rounded-lg shadow border border-stone-300 flex-col justify-between items-center gap-4 inline-flex">
+  return (<div className="2xl:w-80 2xl:h-[27rem] w-56 h-[22rem] p-2 pr-4 pt-4 bg-white rounded-lg shadow border border-stone-300 flex-col justify-between items-center gap-4 inline-flex">
     <div className="flex flex-col w-56 2xl:w-72">
       <img className="2xl:w-36 2xl:h-36 rounded-md w-40 h-40 m-auto" src={pic} />
       <h3 className="2xl:mt-10 2xl:text-[1.6rem] mt-4 ml-[1rem] flex self-start text-black text-lg font-bold">{name}</h3>
