@@ -210,7 +210,7 @@ const members = [
   {
     id: 15,
     name: "Nicole Nascimento",
-    pos: "Tech Co-Chair",
+    pos: "Tech Chair",
     pic: "/board/nicole.jpg",
     major: "Computer Science",
     linkedin: "https://www.linkedin.com/in/nicole-zolnier/",
@@ -219,20 +219,7 @@ const members = [
     futureJob: "Technology",
     hobbies: ["Listening to music", "Cooking", "Watching movies"],
     bio: "Hey! My name is Nicole and I am from the best country in South America: Brazil! I am a fourth-year Computer Science major, work as an Undergraduate Teaching Assistant for Intro to C and as a Software Engineer at UCF. This summer I had my first internship. A fun fact is that I built and designed the website that you are in right now!"
-  },
-  {
-    id: 16,
-    name: "Rebecca Calderon",
-    pos: "Tech Co-Chair",
-    pic: "/board/rebecca.jpg",
-    major: "Computer Science",
-    linkedin: "https://www.linkedin.com/in/rebeccacalderon1/",
-    email: "Rebecca_Calderon@hotmail.com",
-    age: 23,
-    futureJob: "Fullstack Engineer",
-    hobbies: ["Yoga", "traveling", "anime", "hiking", "trying new foods"],
-    bio: "Hi! I'm Becca, a proud Venezuelan and Colombian 🇻🇪🇨🇴. I'm a senior Computer Science student and currently working as a software engineer at Abbott. A fun fact about me is that I'm an adrenaline junkie and love to travel—so anything adventurous, count me in!"
-  },
+  }
 ]
 
 const Team = ({ isMobile }: Prop) => {
