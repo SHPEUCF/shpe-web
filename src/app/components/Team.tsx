@@ -210,7 +210,7 @@ const members = [
   {
     id: 15,
     name: "Nicole Nascimento",
-    pos: "Tech Chair",
+    pos: "Tech Co-Chair",
     pic: "/board/nicole.jpg",
     major: "Computer Science",
     linkedin: "https://www.linkedin.com/in/nicole-zolnier/",
@@ -219,6 +219,19 @@ const members = [
     futureJob: "Technology",
     hobbies: ["Listening to music", "Cooking", "Watching movies"],
     bio: "Hey! My name is Nicole and I am from the best country in South America: Brazil! I am a fourth-year Computer Science major, work as an Undergraduate Teaching Assistant for Intro to C and as a Software Engineer at UCF. This summer I had my first internship. A fun fact is that I built and designed the website that you are in right now!"
+  },
+  {
+    id: 16,
+    name: "Yousef Osman",
+    pos: "Tech Co-Chair",
+    pic: "/board/yousef.jpg",
+    major: "Computer Engineering",
+    linkedin: "https://www.linkedin.com/in/youosman/",
+    email: "@gmail.com",
+    age: 22,
+    futureJob: "Technology",
+    hobbies: ["Going out", "Gaming", "Watching movies"],
+    bio: "Hi! My name is Yousef and I am a junior Computer Engineering major! I'm Egyptian and Puerto Rican Currently in an internship at Lockheed Martin working as a software engineer, I look forward to working with all of you guys! "
   }
 ]
 
