@@ -222,17 +222,17 @@ const members = [
   },
   {
     id: 16,
-    name: "Rebecca Calderon",
+    name: "Yousef Osman",
     pos: "Tech Co-Chair",
-    pic: "/board/rebecca.jpg",
-    major: "Computer Science",
-    linkedin: "https://www.linkedin.com/in/rebeccacalderon1/",
-    email: "Rebecca_Calderon@hotmail.com",
-    age: 23,
-    futureJob: "Fullstack Engineer",
-    hobbies: ["Yoga", "traveling", "anime", "hiking", "trying new foods"],
-    bio: "Hi! I'm Becca, a proud Venezuelan and Colombian 🇻🇪🇨🇴. I'm a senior Computer Science student and currently working as a software engineer at Abbott. A fun fact about me is that I'm an adrenaline junkie and love to travel—so anything adventurous, count me in!"
-  },
+    pic: "/board/yousef.jpg",
+    major: "Computer Engineering",
+    linkedin: "https://www.linkedin.com/in/youosman/",
+    email: "@gmail.com",
+    age: 22,
+    futureJob: "Technology",
+    hobbies: ["Going out", "Gaming", "Watching movies"],
+    bio: "Hi! My name is Yousef and I am a junior Computer Engineering major! I'm Egyptian and Puerto Rican Currently in an internship at Lockheed Martin working as a software engineer, I look forward to working with all of you guys! "
+  }
 ]
 
 const Team = ({ isMobile }: Prop) => {
